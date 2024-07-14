@@ -1,0 +1,7 @@
+import{_ as e,o as a,c as s,a6 as t}from"./chunks/framework.DnJfIKBR.js";const f=JSON.parse(`{"title":"我是标题","titleTemplate":"Vite & Vue powered static site generator","description":"VitePress","frontmatter":{"title":"我是标题","titleTemplate":"Vite & Vue powered static site generator","description":"VitePress","layout":"doc|home|page","navbar":true,"sidebar":true,"aside":"false|true|left","outline":"number | [number, number] | 'deep' | false  大纲中显示的标题级别 默认值 2","lastUpdated":"false | true","editLink":false,"footer":false,"prev":"Get Started | Markdown","next":"string | false","comment":false},"headers":[],"relativePath":"ReadMe.md","filePath":"ReadMe.md","lastUpdated":1714631577000}`),n={name:"ReadMe.md"},p=t(`<div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>&lt;script setup&gt;</span></span>
+<span class="line"><span>import { useData } from &#39;vitepress&#39;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>const { page } = useData()</span></span>
+<span class="line"><span>&lt;/script&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>&lt;pre&gt;{{ page }}&lt;/pre&gt;</span></span></code></pre></div>`,1),i=[p];function l(r,o,c,d,_,u){return a(),s("div",null,i)}const g=e(n,[["render",l]]);export{f as __pageData,g as default};
